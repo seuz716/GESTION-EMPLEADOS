@@ -1,0 +1,31 @@
+{
+  "name": "gestion-empleados",
+  "version": "1.0.0",
+  "description": "gestion de empleados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seuz716/GESTION-EMPLEADOS.git"
+  },
+  "keywords": [
+    "gestion",
+    "empleados"
+  ],
+  "author": "César Andrés Abadía",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seuz716/GESTION-EMPLEADOS/issues"
+  },
+  "homepage": "https://github.com/seuz716/GESTION-EMPLEADOS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
