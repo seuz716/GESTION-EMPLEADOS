@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EmpleadoService } from '../../services/empleado.service';
 import { NgForm } from '@angular/forms';
-import { Empleado } from '../../models/empleado';
+import { Empleado } from '../models/empleado';
 
 declare var M: any;
 
